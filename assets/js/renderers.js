@@ -20,9 +20,18 @@ const skillGroups = (data) => data.skills.map(g => `<section class="skill-group"
 const careerTimeline = (data) => data.career.map(c => `
   <article class="timeline-item"><div class="timeline-dot"></div><div><div class="eyebrow">${esc(c.period)}</div><h3>${esc(c.role)}</h3><strong>${esc(c.company)}</strong><p>${esc(c.summary)}</p><ul>${c.highlights.slice(0,3).map(h => `<li>${esc(h)}</li>`).join('')}</ul></div></article>`).join('');
 
+function heroBackground(data, variant) {
+  // Each background already contains the subject, framed right. When one exists
+  // the portrait element is dropped so he does not appear twice in one band.
+  const map = (data.site && data.site.backgrounds) || {};
+  return map[variant] || '';
+}
+
 function hero(data, variant = 'default') {
   const p = data.profile;
-  return `<section id="top" class="hero hero-${variant}">
+  const bg = heroBackground(data, variant);
+  return `<section id="top" class="hero hero-${variant}${bg ? ' has-bg' : ''}"${
+      bg ? ` style="background-image:url('${bg}')"` : ''}>
     <div class="hero-copy">
       <div class="eyebrow">${p.roles.map(esc).join(' • ')}</div>
       <h1>${esc(p.name)}</h1>
@@ -31,7 +40,7 @@ function hero(data, variant = 'default') {
       <div class="hero-actions"><a class="button primary" href="#projects">Explore my work</a><a class="button" href="#career">Career</a></div>
       <div class="mini-principles">${data.principles.slice(0,4).map(x => `<span>${esc(x.name)}</span>`).join('')}</div>
     </div>
-    <div class="portrait-wrap"><img src="${p.heroImage}" alt="Portrait of ${esc(p.name)}" /></div>
+    ${bg ? '' : `<div class="portrait-wrap"><img src="${p.heroImage}" alt="Portrait of ${esc(p.name)}" /></div>`}
   </section>`;
 }
 

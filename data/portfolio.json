@@ -15,8 +15,8 @@
     "tagline": "Dream big. Build real.",
     "summary": "Network engineer, AI systems builder, product maker, and entrepreneur focused on practical systems: resilient networks, local AI, automation, observability, software products, and real-world businesses.",
     "availability": "Open to high-impact engineering, AI, consulting, and build opportunities.",
-    "heroImage": "assets/photos/portrait-front.jpg",
-    "secondaryImage": "assets/photos/portrait-angle.jpg",
+    "heroImage": "assets/photos/portrait-up.jpg",
+    "secondaryImage": "assets/photos/portrait-front.jpg",
     "links": {
       "github": "https://github.com/scasimir2021",
       "linkedin": "",
@@ -588,6 +588,12 @@
         "id": "dashboard",
         "label": "Dashboard"
       }
-    ]
+    ],
+    "backgrounds": {
+      "cosmic": "assets/bg/cosmic.webp",
+      "builder": "assets/bg/builder.webp",
+      "operator": "assets/bg/operator.webp",
+      "dashboard": "assets/bg/dashboard.webp"
+    }
   }
 }

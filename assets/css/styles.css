@@ -23,3 +23,16 @@ main{max-width:var(--max);margin:0 auto;padding:0 22px 80px}.global-footer{max-w
 .view-transition-out{opacity:.35;transform:scale(.998)}.view-transition-in{animation:viewIn .42s ease both}@keyframes viewIn{from{opacity:.2;transform:translateY(6px)}to{opacity:1;transform:none}}
 @media(max-width:1150px){.top-nav{display:none}.hero{grid-template-columns:1fr;min-height:auto}.portrait-wrap{height:500px;order:-1}.builder-grid,.dash-panels{grid-template-columns:1fr 1fr}.operator-shell,.dash-layout{grid-template-columns:1fr}.operator-rail,.dash-sidebar{position:relative;top:auto;height:auto;border-right:0;border-bottom:1px solid var(--line);display:none}.project-grid{grid-template-columns:repeat(2,1fr)}.skill-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:720px){.global-header{padding:10px 14px}.brand small{display:none}.header-actions .icon-link{display:none}main{padding:0 12px 50px}.hero{padding:36px 4% 24px;gap:1rem}.hero h1{font-size:3.3rem}.portrait-wrap{height:390px}.cosmic-strip,.business-grid,.skill-grid,.project-grid,.project-grid.compact,.hobby-grid,.builder-grid,.dash-panels,.operator-band{grid-template-columns:1fr}.builder-grid .span-2,.dash-panels .span-2{grid-column:auto}.global-footer{flex-direction:column;gap:.5rem;padding:20px 16px}.project-card{min-height:auto}}
+
+/* Per-view hero background. The subject sits right of centre in every image, so
+   the hero becomes a single column of copy over the empty left side, with a
+   scrim strong enough to keep text legible without washing the image out. */
+.hero.has-bg{grid-template-columns:1fr;background-size:cover;background-position:72% center;background-repeat:no-repeat;min-height:min(78vh,660px)}
+.hero.has-bg:before{background:linear-gradient(100deg,rgba(4,10,18,.94) 0%,rgba(4,10,18,.82) 34%,rgba(4,10,18,.42) 55%,rgba(4,10,18,.12) 72%,transparent 88%);z-index:0}
+.hero.has-bg .hero-copy{position:relative;z-index:1;max-width:min(660px,58%)}
+.hero.has-bg p{color:#d7e2ee}
+@media(max-width:1150px){
+  .hero.has-bg{background-position:78% center;min-height:560px}
+  .hero.has-bg .hero-copy{max-width:100%}
+  .hero.has-bg:before{background:linear-gradient(180deg,rgba(4,10,18,.72) 0%,rgba(4,10,18,.86) 55%,rgba(4,10,18,.95) 100%)}
+}
