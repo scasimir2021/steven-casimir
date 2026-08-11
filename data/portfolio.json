@@ -15,8 +15,8 @@
     "tagline": "Dream big. Build real.",
     "summary": "Network engineer, AI systems builder, product maker, and entrepreneur focused on practical systems: resilient networks, local AI, automation, observability, software products, and real-world businesses.",
     "availability": "Open to high-impact engineering, AI, consulting, and build opportunities.",
-    "heroImage": "assets/photos/portrait-up.jpg",
-    "secondaryImage": "assets/photos/portrait-front.jpg",
+    "heroImage": "assets/photos/portrait-front.jpg",
+    "secondaryImage": "assets/photos/portrait-angle.jpg",
     "links": {
       "github": "https://github.com/scasimir2021",
       "linkedin": "",
@@ -25,19 +25,113 @@
     }
   },
   "principles": [
-    {"name": "Truth", "description": "Prefer systems that can be tested, measured, and proven."},
-    {"name": "Build", "description": "Turn ideas into working artifacts instead of stopping at discussion."},
-    {"name": "Iteration", "description": "Practice, test, correct, and improve continuously."},
-    {"name": "Impact", "description": "Use technology to solve useful real-world problems."},
-    {"name": "Freedom", "description": "Build systems and businesses that create options and autonomy."}
+    {
+      "name": "Truth",
+      "description": "Prefer systems that can be tested, measured, and proven."
+    },
+    {
+      "name": "Build",
+      "description": "Turn ideas into working artifacts instead of stopping at discussion."
+    },
+    {
+      "name": "Iteration",
+      "description": "Practice, test, correct, and improve continuously."
+    },
+    {
+      "name": "Impact",
+      "description": "Use technology to solve useful real-world problems."
+    },
+    {
+      "name": "Freedom",
+      "description": "Build systems and businesses that create options and autonomy."
+    }
   ],
   "skills": [
-    {"group": "Network Engineering", "items": ["Enterprise networking", "Meraki MX/MR", "Cisco", "SD-WAN", "VPN", "DHCP", "Wi-Fi", "Network standards", "PCI-DSS", "Troubleshooting"]},
-    {"group": "Cloud & Automation", "items": ["Azure Functions", "Azure Containers", "Azure Web Apps", "Databricks", "Docker", "APIs", "Automation pipelines", "CI/CD", "Linux", "Bash"]},
-    {"group": "Software", "items": ["Go", "Python", "JavaScript", "TypeScript", "React", "HTMX", "SQL", "SQLite", "REST APIs", "WebSockets"]},
-    {"group": "AI & Local LLMs", "items": ["Local LLM orchestration", "Ollama", "llama.cpp", "WebLLM", "Qwen", "Agent systems", "RAG", "Tool routing", "Context engineering", "KV-cache research"]},
-    {"group": "Observability & Edge", "items": ["Network observability", "Telemetry", "Prometheus", "Grafana", "ESP32", "IoT", "MQTT", "Edge computing"]},
-    {"group": "Product & Leadership", "items": ["Technical leadership", "Vendor management", "Product prototyping", "Systems architecture", "Operations", "Problem solving", "AI consulting"]}
+    {
+      "group": "Network Engineering",
+      "items": [
+        "Enterprise networking",
+        "Meraki MX/MR",
+        "Cisco",
+        "SD-WAN",
+        "VPN",
+        "DHCP",
+        "Wi-Fi",
+        "Network standards",
+        "PCI-DSS",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "group": "Cloud & Automation",
+      "items": [
+        "Azure Functions",
+        "Azure Containers",
+        "Azure Web Apps",
+        "Databricks",
+        "Docker",
+        "APIs",
+        "Automation pipelines",
+        "CI/CD",
+        "Linux",
+        "Bash"
+      ]
+    },
+    {
+      "group": "Software",
+      "items": [
+        "Go",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTMX",
+        "SQL",
+        "SQLite",
+        "REST APIs",
+        "WebSockets"
+      ]
+    },
+    {
+      "group": "AI & Local LLMs",
+      "items": [
+        "Local LLM orchestration",
+        "Ollama",
+        "llama.cpp",
+        "WebLLM",
+        "Qwen",
+        "Agent systems",
+        "RAG",
+        "Tool routing",
+        "Context engineering",
+        "KV-cache research"
+      ]
+    },
+    {
+      "group": "Observability & Edge",
+      "items": [
+        "Network observability",
+        "Telemetry",
+        "Prometheus",
+        "Grafana",
+        "ESP32",
+        "IoT",
+        "MQTT",
+        "Edge computing"
+      ]
+    },
+    {
+      "group": "Product & Leadership",
+      "items": [
+        "Technical leadership",
+        "Vendor management",
+        "Product prototyping",
+        "Systems architecture",
+        "Operations",
+        "Problem solving",
+        "AI consulting"
+      ]
+    }
   ],
   "career": [
     {
@@ -127,168 +221,289 @@
       "category": "AI Systems",
       "status": "active build",
       "summary": "Local AI harness with Avi as the primary agent and Clo as the second-brain agent, reusable tools, scheduled/background work, local model orchestration, and a dashboard operating layer.",
-      "tags": ["local AI", "agents", "orchestration", "tools", "automation"]
+      "tags": [
+        "local AI",
+        "agents",
+        "orchestration",
+        "tools",
+        "automation"
+      ]
     },
     {
       "name": "TIME",
       "category": "AI Memory / UX",
       "status": "research + prototype",
       "summary": "A time-spine interface and data model spanning seconds, minutes, hours, days, months, and years, with provenance-aware memory and bounded working context.",
-      "tags": ["memory", "timeline", "provenance", "AI UX"]
+      "tags": [
+        "memory",
+        "timeline",
+        "provenance",
+        "AI UX"
+      ]
     },
     {
       "name": "Breadcrumb Harness",
       "category": "Developer Tooling",
       "status": "prototype",
       "summary": "Root and per-folder agent instructions, watcher-driven registries, and compact runtime packets designed to make large codebases easier for local AI to navigate safely.",
-      "tags": ["agents", "codebase", "context", "developer tooling"]
+      "tags": [
+        "agents",
+        "codebase",
+        "context",
+        "developer tooling"
+      ]
     },
     {
       "name": "Compact Context Module (CCM)",
       "category": "AI Infrastructure",
       "status": "research",
       "summary": "File-level context blobs and higher-layer KV/context management for fast task-specific context loading and reduced model overhead.",
-      "tags": ["context", "KV", "Rust", "local LLM"]
+      "tags": [
+        "context",
+        "KV",
+        "Rust",
+        "local LLM"
+      ]
     },
     {
       "name": "KV Forge",
       "category": "AI Infrastructure",
       "status": "research",
       "summary": "Task-segmented KV snapshot/swap experiments intended to reuse context efficiently across local models and specialized agent workflows.",
-      "tags": ["KV cache", "memory", "inference", "Rust"]
+      "tags": [
+        "KV cache",
+        "memory",
+        "inference",
+        "Rust"
+      ]
     },
     {
       "name": "Cactus Needle Agents",
       "category": "AI Systems",
       "status": "research",
       "summary": "Small specialized models and routers designed as focused 'needles' for event routing, search, scanning, styling, or other narrow tasks around larger models.",
-      "tags": ["small models", "routing", "fine-tuning", "agents"]
+      "tags": [
+        "small models",
+        "routing",
+        "fine-tuning",
+        "agents"
+      ]
     },
     {
       "name": "Distributed Local Model Mesh",
       "category": "AI Infrastructure",
       "status": "experiment",
       "summary": "Experiments with loading and coordinating large language models across multiple local machines with different CPU/GPU capabilities.",
-      "tags": ["distributed inference", "llama.cpp", "local AI"]
+      "tags": [
+        "distributed inference",
+        "llama.cpp",
+        "local AI"
+      ]
     },
     {
       "name": "Semantic UI DSL",
       "category": "Developer Tooling",
       "status": "research + scaffold",
       "summary": "An AI-facing compact UI language that can compile into HTML, HTMX, small JavaScript, and WebAssembly where useful, optimized for truthful, fast, responsive interfaces.",
-      "tags": ["HTMX", "HTML", "DSL", "AI UI"]
+      "tags": [
+        "HTMX",
+        "HTML",
+        "DSL",
+        "AI UI"
+      ]
     },
     {
       "name": "Trio Research Vault",
       "category": "Knowledge Systems",
       "status": "planned",
       "summary": "Searchable research history for URLs and videos, with dates, summaries, source links, extracted packages, technical explanations, and cross-source synthesis.",
-      "tags": ["research", "video", "knowledge base", "search"]
+      "tags": [
+        "research",
+        "video",
+        "knowledge base",
+        "search"
+      ]
     },
     {
       "name": "Momento / ORB5",
       "category": "Market Systems",
       "status": "R&D",
       "summary": "High-velocity SPY/options research platform where volume, momentum, and time are treated as native event properties, with ultra-short-horizon signal research and trade review tooling.",
-      "tags": ["SPY", "options", "5-second data", "momentum", "research"]
+      "tags": [
+        "SPY",
+        "options",
+        "5-second data",
+        "momentum",
+        "research"
+      ]
     },
     {
       "name": "ORB5 Trade Reports",
       "category": "Market Systems",
       "status": "planned + prototype",
       "summary": "Daily and weekly trading reports with entry/exit overlays, zoomed 5-second views, exhaustion zones, and post-trade analysis.",
-      "tags": ["reporting", "charts", "analytics", "options"]
+      "tags": [
+        "reporting",
+        "charts",
+        "analytics",
+        "options"
+      ]
     },
     {
       "name": "HOA Rental Monitoring",
       "category": "PropTech / AI",
       "status": "design + build",
       "summary": "Rental and short-term-rental monitoring for HOAs, condos, and townhome communities with weekly checks, monthly reporting, invoicing, public-record comparison, and AI-assisted interior visual matching.",
-      "tags": ["HOA", "rentals", "computer vision", "reports", "compliance"]
+      "tags": [
+        "HOA",
+        "rentals",
+        "computer vision",
+        "reports",
+        "compliance"
+      ]
     },
     {
       "name": "Infinity Spatial Graph",
       "category": "Data Platform",
       "status": "concept + architecture",
       "summary": "A global spatial graph that uses physical placement and distance as a common reference across contacts, businesses, public data, travel, trucking, and other real-world information.",
-      "tags": ["maps", "graph", "geospatial", "data"]
+      "tags": [
+        "maps",
+        "graph",
+        "geospatial",
+        "data"
+      ]
     },
     {
       "name": "Trucking Companion",
       "category": "Mobile / Spatial",
       "status": "concept",
       "summary": "CDL progress, reminders, calendar, income tracking, route/mapping, and on-the-road context connected to the same global spatial graph used by other personal systems.",
-      "tags": ["CDL", "mapping", "calendar", "income"]
+      "tags": [
+        "CDL",
+        "mapping",
+        "calendar",
+        "income"
+      ]
     },
     {
       "name": "Lawn-A-Mercy Digital Hub",
       "category": "Business Platform",
       "status": "active build",
       "summary": "Website, social hub, lead routing, flyers, QR flows, service presentation, and digital systems supporting the Lawn-A-Mercy lawn and property-services brand.",
-      "tags": ["business", "website", "QR", "marketing"]
+      "tags": [
+        "business",
+        "website",
+        "QR",
+        "marketing"
+      ]
     },
     {
       "name": "Remote AI Lawn Mower",
       "category": "Robotics / IoT",
       "status": "R&D concept",
       "summary": "Remote-controllable mower concept focused on speed, safety, computer vision, AI assistance, and reducing physical labor compared with conventional riding mowers.",
-      "tags": ["robotics", "computer vision", "lawn care", "remote control"]
+      "tags": [
+        "robotics",
+        "computer vision",
+        "lawn care",
+        "remote control"
+      ]
     },
     {
       "name": "ESP32 / Edge Lab",
       "category": "IoT",
       "status": "active experiments",
       "summary": "ESP32-CAM and edge-device work spanning local administration, telemetry, sensors, MQTT, network management, and small real-world automation experiments.",
-      "tags": ["ESP32", "IoT", "MQTT", "edge"]
+      "tags": [
+        "ESP32",
+        "IoT",
+        "MQTT",
+        "edge"
+      ]
     },
     {
       "name": "Boxing Platform",
       "category": "Sports Tech",
       "status": "concept + architecture",
       "summary": "Role-based boxing ecosystem for boxers, managers, promoters, matchmakers, coaches, and fans with a mobile-first interface and structured backend.",
-      "tags": ["boxing", "React", "Go", "SQLite"]
+      "tags": [
+        "boxing",
+        "React",
+        "Go",
+        "SQLite"
+      ]
     },
     {
       "name": "Beep Children's Publishing",
       "category": "Creative / Education",
       "status": "active build",
       "summary": "Children's book publishing, digital-first launch planning, character assets, social channels, and a companion coding-learning concept.",
-      "tags": ["publishing", "children", "education", "coding"]
+      "tags": [
+        "publishing",
+        "children",
+        "education",
+        "coding"
+      ]
     },
     {
       "name": "Recycled Product / Lighting Prototypes",
       "category": "Maker / Product Design",
       "status": "concept + prototyping",
       "summary": "Physical-product experiments including recycled-plastic lighting, 3D-printable shells, LED structures, hole-pattern fabrication, and new-hire assembly/training concepts.",
-      "tags": ["3D printing", "recycling", "lighting", "product design"]
+      "tags": [
+        "3D printing",
+        "recycling",
+        "lighting",
+        "product design"
+      ]
     },
     {
       "name": "Go-Board Memory Representation",
       "category": "AI Research",
       "status": "concept",
       "summary": "An experimental idea for representing multidimensional AI state as rapidly changing grayscale board states, inspired by Go-like spatial relationships and compact visual/state encodings.",
-      "tags": ["memory", "state", "AI research", "representation"]
+      "tags": [
+        "memory",
+        "state",
+        "AI research",
+        "representation"
+      ]
     },
     {
       "name": "NS Live",
       "category": "Professional Build",
       "status": "limited release",
       "summary": "React + Go + Azure network-services application built in the restaurant enterprise environment to expose useful network operations workflows and information.",
-      "tags": ["React", "Go", "Azure", "networking"]
+      "tags": [
+        "React",
+        "Go",
+        "Azure",
+        "networking"
+      ]
     },
     {
       "name": "Punchh Reset Automation",
       "category": "Professional Build",
       "status": "shipped",
       "summary": "Azure Functions + Databricks automation for Punchh password-reset handling that reduced manual work by roughly 80%.",
-      "tags": ["Azure Functions", "Databricks", "automation"]
+      "tags": [
+        "Azure Functions",
+        "Databricks",
+        "automation"
+      ]
     },
     {
       "name": "QU POS Network Conversion",
       "category": "Professional Program",
       "status": "delivered",
       "summary": "Network validation and rollout support for a POS conversion spanning more than 1,800 restaurant sites.",
-      "tags": ["QSR", "POS", "networking", "rollout"]
+      "tags": [
+        "QSR",
+        "POS",
+        "networking",
+        "rollout"
+      ]
     }
   ],
   "researchThemes": [
@@ -304,29 +519,75 @@
     "Physical product prototyping and 3D printing"
   ],
   "hobbies": [
-    {"name": "Building & Making", "description": "Hands-on projects, woodworking, outdoor builds, product prototypes, and practical problem solving."},
-    {"name": "Local AI Research", "description": "Experimenting with models, agents, orchestration, memory, and new human-AI interfaces."},
-    {"name": "Boxing", "description": "Interest in boxing and the systems, people, and technology around the sport."},
-    {"name": "Lawn & Outdoor Work", "description": "Landscaping, lawn care, outdoor design, and experimenting with equipment and process improvements."},
-    {"name": "Creative Publishing", "description": "Children's stories, visual concepts, brand work, and educational ideas."},
-    {"name": "Market Systems", "description": "Studying market structure, momentum, options, and data-driven trading systems as research."}
+    {
+      "name": "Building & Making",
+      "description": "Hands-on projects, woodworking, outdoor builds, product prototypes, and practical problem solving."
+    },
+    {
+      "name": "Local AI Research",
+      "description": "Experimenting with models, agents, orchestration, memory, and new human-AI interfaces."
+    },
+    {
+      "name": "Boxing",
+      "description": "Interest in boxing and the systems, people, and technology around the sport."
+    },
+    {
+      "name": "Lawn & Outdoor Work",
+      "description": "Landscaping, lawn care, outdoor design, and experimenting with equipment and process improvements."
+    },
+    {
+      "name": "Creative Publishing",
+      "description": "Children's stories, visual concepts, brand work, and educational ideas."
+    },
+    {
+      "name": "Market Systems",
+      "description": "Studying market structure, momentum, options, and data-driven trading systems as research."
+    }
   ],
   "site": {
     "autoView": {
       "enabled": true,
       "timezoneMode": "visitor-local",
       "slots": [
-        {"fromHour": 0, "toHour": 5, "view": "dashboard"},
-        {"fromHour": 6, "toHour": 11, "view": "operator"},
-        {"fromHour": 12, "toHour": 17, "view": "builder"},
-        {"fromHour": 18, "toHour": 23, "view": "cosmic"}
+        {
+          "fromHour": 0,
+          "toHour": 5,
+          "view": "dashboard"
+        },
+        {
+          "fromHour": 6,
+          "toHour": 11,
+          "view": "operator"
+        },
+        {
+          "fromHour": 12,
+          "toHour": 17,
+          "view": "builder"
+        },
+        {
+          "fromHour": 18,
+          "toHour": 23,
+          "view": "cosmic"
+        }
       ]
     },
     "views": [
-      {"id": "cosmic", "label": "Cosmic"},
-      {"id": "builder", "label": "Builder"},
-      {"id": "operator", "label": "Operator"},
-      {"id": "dashboard", "label": "Dashboard"}
+      {
+        "id": "cosmic",
+        "label": "Cosmic"
+      },
+      {
+        "id": "builder",
+        "label": "Builder"
+      },
+      {
+        "id": "operator",
+        "label": "Operator"
+      },
+      {
+        "id": "dashboard",
+        "label": "Dashboard"
+      }
     ]
   }
 }
