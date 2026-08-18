@@ -144,7 +144,6 @@
         "Reduced firewall template sprawl from roughly 350–450 configurations to about 60 standardized templates.",
         "Helped drive PCI-DSS work and held PCI-ISA certification experience.",
         "Built and advanced NS Live, a React + Go + Azure network-services application used in a limited release.",
-        "Created Punchh password-reset automation using Azure Functions and Databricks, cutting manual handling time by roughly 80%.",
         "Worked on Amazon Connect, T-Mobile 5G, Dialpad, network unification, and vendor integration pilots."
       ]
     },
@@ -480,17 +479,6 @@
         "Go",
         "Azure",
         "networking"
-      ]
-    },
-    {
-      "name": "Punchh Reset Automation",
-      "category": "Professional Build",
-      "status": "shipped",
-      "summary": "Azure Functions + Databricks automation for Punchh password-reset handling that reduced manual work by roughly 80%.",
-      "tags": [
-        "Azure Functions",
-        "Databricks",
-        "automation"
       ]
     },
     {
