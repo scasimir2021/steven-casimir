@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-24",
   "profile": {
     "name": "Steven Casimir",
     "shortName": "Steven",
@@ -395,7 +395,8 @@
         "website",
         "QR",
         "marketing"
-      ]
+      ],
+      "url": "https://scasimir2021.github.io/lawn-a-mercy/"
     },
     {
       "name": "Remote AI Lawn Mower",
