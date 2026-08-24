@@ -7,6 +7,7 @@ const projectCard = (p) => `
     <p>${esc(p.summary)}</p>
     <div class="tags">${p.tags.map(t => `<span>${esc(t)}</span>`).join('')}</div>
     <small class="status">${esc(p.status)}</small>
+    ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">Visit ↗</a>` : ''}
   </article>`;
 
 const businessCard = (b) => `
