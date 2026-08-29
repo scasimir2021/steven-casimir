@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-29",
   "profile": {
     "name": "Steven Casimir",
     "shortName": "Steven",
@@ -216,19 +216,6 @@
   ],
   "projects": [
     {
-      "name": "Trio AI / Avi + Clo",
-      "category": "AI Systems",
-      "status": "active build",
-      "summary": "Local AI harness with Avi as the primary agent and Clo as the second-brain agent, reusable tools, scheduled/background work, local model orchestration, and a dashboard operating layer.",
-      "tags": [
-        "local AI",
-        "agents",
-        "orchestration",
-        "tools",
-        "automation"
-      ]
-    },
-    {
       "name": "TIME",
       "category": "AI Memory / UX",
       "status": "research + prototype",
@@ -362,18 +349,6 @@
       ]
     },
     {
-      "name": "Infinity Spatial Graph",
-      "category": "Data Platform",
-      "status": "concept + architecture",
-      "summary": "A global spatial graph that uses physical placement and distance as a common reference across contacts, businesses, public data, travel, trucking, and other real-world information.",
-      "tags": [
-        "maps",
-        "graph",
-        "geospatial",
-        "data"
-      ]
-    },
-    {
       "name": "Trucking Companion",
       "category": "Mobile / Spatial",
       "status": "concept",
@@ -384,19 +359,6 @@
         "calendar",
         "income"
       ]
-    },
-    {
-      "name": "Lawn-A-Mercy Digital Hub",
-      "category": "Business Platform",
-      "status": "active build",
-      "summary": "Website, social hub, lead routing, flyers, QR flows, service presentation, and digital systems supporting the Lawn-A-Mercy lawn and property-services brand.",
-      "tags": [
-        "business",
-        "website",
-        "QR",
-        "marketing"
-      ],
-      "url": "https://scasimir2021.github.io/lawn-a-mercy/"
     },
     {
       "name": "Remote AI Lawn Mower",
@@ -432,18 +394,6 @@
         "React",
         "Go",
         "SQLite"
-      ]
-    },
-    {
-      "name": "Beep Children's Publishing",
-      "category": "Creative / Education",
-      "status": "active build",
-      "summary": "Children's book publishing, digital-first launch planning, character assets, social channels, and a companion coding-learning concept.",
-      "tags": [
-        "publishing",
-        "children",
-        "education",
-        "coding"
       ]
     },
     {
@@ -496,16 +446,9 @@
     }
   ],
   "researchThemes": [
-    "Local-first AI and personal agent systems",
-    "Small specialized models and routing",
-    "High-speed market data and momentum research",
     "Context compression and KV reuse",
-    "Spatial graphs and real-world data",
     "Computer vision for property and outdoor workflows",
-    "Edge devices, ESP32, IoT, and telemetry",
-    "Fast HTML/HTMX/JS interfaces for AI-controlled systems",
-    "Practical business automation",
-    "Physical product prototyping and 3D printing"
+    "Practical business automation"
   ],
   "hobbies": [
     {
@@ -513,24 +456,8 @@
       "description": "Hands-on projects, woodworking, outdoor builds, product prototypes, and practical problem solving."
     },
     {
-      "name": "Local AI Research",
-      "description": "Experimenting with models, agents, orchestration, memory, and new human-AI interfaces."
-    },
-    {
       "name": "Boxing",
       "description": "Interest in boxing and the systems, people, and technology around the sport."
-    },
-    {
-      "name": "Lawn & Outdoor Work",
-      "description": "Landscaping, lawn care, outdoor design, and experimenting with equipment and process improvements."
-    },
-    {
-      "name": "Creative Publishing",
-      "description": "Children's stories, visual concepts, brand work, and educational ideas."
-    },
-    {
-      "name": "Market Systems",
-      "description": "Studying market structure, momentum, options, and data-driven trading systems as research."
     }
   ],
   "site": {
